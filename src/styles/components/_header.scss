@@ -1,0 +1,185 @@
+// Header
+header {
+  padding: $xs-size 20rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+// Header Titles
+h1 {
+  margin: 2% 0;
+}
+p {
+  margin: 2% 0;
+}
+
+.header-titles {
+  font-size: $m-size;
+  &:hover {
+    cursor: default;
+  }
+}
+
+// Header Navigation
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: $xl-size;
+  padding-top: 4px;
+}
+
+.nav-item, .nav-item-end {
+  font-size: $l-size;
+  text-align: center;
+  padding: $s-size;
+  height: 36px;
+  width: 36px;
+}
+
+.nav-item-end {
+  padding-right: 0;
+}
+
+.home-link div {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+  p {
+    font-size: $s-size;
+    font-weight: 1;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+.home-link:hover div {
+  visibility: visible;
+}
+
+.folder-link div {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+  p {
+    font-size: $s-size;
+    font-weight: 1;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+.folder-link:hover div {
+  visibility: visible;
+}
+
+.contact-link div {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+  p {
+    font-size: $s-size;
+    font-weight: 1;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+.contact-link:hover div {
+  visibility: visible;
+}
+
+// Change closed folder icon to open folder icon
+.folder-link:hover .fa-folder:before {
+  content: "\f07c";
+}
+
+// Media Queries
+@media (min-width: $desktop-breakpoint) {
+  header {
+    margin-bottom: $m-size;
+  }
+}
+
+@media (max-width: 1125px) {
+  header {
+    padding: $xs-size $xl-size;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding: $xs-size 5%;
+  }
+}
+
+@media (max-width: 532px) {
+  header {
+    padding-top: 5px;
+  }
+  .header-container {
+    display: block;
+  }
+  .header-nav {
+    height: $m-size;
+  }
+  .nav-item, .nav-item-end {
+    font-size: 2rem;
+    padding: $xxs-size;
+    height: 22px;
+    width: 22px;
+  }
+}
+
+@media (max-width: 348px) {
+  .hide-when-narrow {
+    display: none;
+  }
+}
+
+@media (max-width: 310px) {
+  .header-titles {
+    font-size: $m-font;
+  }
+}
+
+@media (max-width: 272px) {
+  .header-titles {
+    font-size: $s-size;
+    p {
+      font-size: $m-font;
+    }
+  }
+}
+
+@media (max-width: 236px) {
+  .header-titles {
+    font-size: $s-font;
+  }
+}
+
+@media (max-width: 220px) {
+  .nav-item, .nav-item-end {
+    font-size: $m-size;
+  }
+}
+
+@media (max-width: 200px) {
+  .header-titles {
+    font-size: .8rem;
+    p {
+      font-size: $s-size;
+    }
+  }
+}
+
+@media (max-width: 164px) {
+  .header-titles {
+    font-size: .7rem;
+  }
+}
