@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import ContactPage from './components/ContactPage';
@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import NotFoundPage from './components/NotFoundPage';
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
       <Header />
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
@@ -20,7 +20,7 @@ const App = () => (
         <Route component={NotFoundPage} />
       </Switch>
       <Footer />
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // function App() {
