@@ -1,5 +1,4 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
 import ExpensifyPic from '../images/expensifypic.png';
 import IndecisionPic from '../images/indecisionpic.png';
 import SecretsPic from '../images/secretspic.png';
