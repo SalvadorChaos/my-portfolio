@@ -57,6 +57,10 @@ const ContactPage = () => (
       </div>
     </div>
 
+    <div className="cv">
+      <a href="https://salvadorchaos.github.io/cv/">My CV Site (Curriculum Vitæ)</a>
+    </div>
+
     <div>
       <br />
       <h3>Send a Direct Message:</h3>
