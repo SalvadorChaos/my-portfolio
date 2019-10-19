@@ -7,7 +7,7 @@ const ContactPage = () => (
       <title>Sal J's Portfolio | Contact Info</title>
       <meta
         name="description"
-        content="Get in contact with, Freelance Web Developer, Salvador Martinez Jr."
+        content="Get in contact with, Freelance Web Developer, Salvador Martinez Jr aka @SalvadorChaos."
       />
     </Helmet>
     <div className="contact-div">

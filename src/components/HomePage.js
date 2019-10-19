@@ -5,10 +5,10 @@ import {Helmet} from 'react-helmet';
 const HomePage = () => (
   <div>
     <Helmet>
-      <title>Sal J's Portfolio</title>
+      <title>Sal J's Portfolio | Home</title>
       <meta
         name="description"
-        content="Portfolio of, Freelance Web Developer, Salvador Martinez Jr."
+        content="Portfolio of, Freelance Web Developer, Salvador Martinez Jr aka @SalvadorChaos."
       />
     </Helmet>
     <div className="intro">

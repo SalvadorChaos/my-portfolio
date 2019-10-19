@@ -13,7 +13,7 @@ const Portfolio = () => (
       <title>Sal J's Portfolio | Project List</title>
       <meta
         name="description"
-        content="List of websites made by, Freelance Web Developer, Salvador Martinez Jr."
+        content="List of websites made by, Freelance Web Developer, Salvador Martinez Jr aka @SalvadorChaos."
       />
     </Helmet>
     <div className="portfolio-titles">
