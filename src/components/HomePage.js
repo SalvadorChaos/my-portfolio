@@ -1,8 +1,16 @@
 import React from 'react';
 import Profilepic from '../images/profilepic.jpg';
+import {Helmet} from 'react-helmet';
 
 const HomePage = () => (
   <div>
+    <Helmet>
+      <title>Sal J's Portfolio</title>
+      <meta
+        name="description"
+        content="Portfolio of, Freelance Web Developer, Salvador Martinez Jr."
+      />
+    </Helmet>
     <div className="intro">
       <div className="profile-pic">
         <img src={Profilepic} alt="profile-pic" className="me" />

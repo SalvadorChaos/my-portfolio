@@ -1,7 +1,15 @@
 import React from 'react';
+import {Helmet} from 'react-helmet'
 
 const ContactPage = () => (
   <div className="contact-container">
+    <Helmet>
+      <title>Sal J's Portfolio | Contact Info</title>
+      <meta
+        name="description"
+        content="Get in contact with, Freelance Web Developer, Salvador Martinez Jr."
+      />
+    </Helmet>
     <div className="contact-div">
       <h1>Contact Me</h1>
       <br />

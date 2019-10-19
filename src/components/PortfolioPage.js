@@ -5,9 +5,17 @@ import SecretsPic from '../images/secretspic.png';
 import DrumKitPic from '../images/drumkitpic.png';
 import SimonSaysPic from '../images/simonsayspic.png';
 import DiceChallengePic from '../images/dicechallengepic.png';
+import {Helmet} from 'react-helmet'
 
 const Portfolio = () => (
   <div className="portfolio-container">
+    <Helmet>
+      <title>Sal J's Portfolio | Project List</title>
+      <meta
+        name="description"
+        content="List of websites made by, Freelance Web Developer, Salvador Martinez Jr."
+      />
+    </Helmet>
     <div className="portfolio-titles">
       <h1>My Work</h1>
       <p>Things that I've done:</p>
