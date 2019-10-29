@@ -24,6 +24,29 @@
     <link rel="apple-touch-icon" href="logo192.png" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/821332a91b.js"></script>
+    <!-- EmailJS and SweetAlert code for the Direct Message Contact Form -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init('user_cgeNs4nISKUloQ9k91fQd')
+      })()
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+        document.getElementById('contact-me').addEventListener('submit', function(event) {
+          event.preventDefault();
+          this.contact_number.value = Math.random() * 100000 | 0;
+          emailjs.sendForm('contact_me', 'contact_me', this)
+          .then(document.forms['contact-me'].reset())
+          .then(function() {
+            swal("Thanks!", "Your message has been sent!");
+          }, function(error) {
+            swal("Error!", "I'm sorry. Try a different contact method.", "error");
+          })
+        });
+      };
+    </script>
     <!-- Title, Description & Google Search Console verification -->
     <title>Sal J's Portfolio</title>
     <meta

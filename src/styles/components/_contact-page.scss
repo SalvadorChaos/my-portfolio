@@ -9,6 +9,13 @@
   margin: $l-size 0; 
 }
 
+.question {
+  margin: 0px;
+}
+.contact-me {
+  margin-top: 0px;
+}
+
 // Networking Sites
 .networks-div {
   display: inline-block;
@@ -93,6 +100,23 @@ textarea {
   color: $off-white;
 }
 
+.swal-modal {
+  background-color: black;
+}
+
+.swal-title {
+  color: silver;
+}
+
+.swal-text {
+  color: silver;
+}
+
+.swal-button {
+  background-color: black;
+  margin-right: 18.2rem;
+}
+
 // Media Queries
 @media (max-width: 530px) {
   .contact-container {
@@ -101,6 +125,12 @@ textarea {
   }
   .fas, .fab {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 501px) {
+  .swal-button {
+    margin-right: 0px;
   }
 }
 
