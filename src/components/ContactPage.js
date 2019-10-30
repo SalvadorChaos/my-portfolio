@@ -1,8 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
-const ContactPage = () => {
-  return (
+const ContactPage = () => (
     <div className="contact-container">
       <Helmet>
         <title>Sal J's Portfolio | Contact Info</title>
@@ -91,7 +90,6 @@ const ContactPage = () => {
         </form>
       </div>
     </div>
-  );
-};
+);
 
 export default ContactPage;
