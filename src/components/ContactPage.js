@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet';
 const ContactPage = () => (
     <div className="contact-container">
       <Helmet>
-        <title>Sal J&#39;s Portfolio | Contact Info</title>
+        <title>Sal J's Portfolio | Contact Info</title>
         <meta
           name="description"
           content="Get in contact with, Freelance Web Developer, Salvador Martinez Jr aka @SalvadorChaos."
