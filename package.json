@@ -28,7 +28,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://salvadorchaos.github.io/my-portfolio",
+  "homepage": "https://salvadorchaos.github.io/my-portfolio/",
   "eslintConfig": {
     "extends": "react-app"
   },
