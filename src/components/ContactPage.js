@@ -1,7 +1,17 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 
-const ContactPage = () => (
+const ContactPage = () => {
+
+  if (!localStorage.getItem("reload")) {
+    localStorage.setItem("reload", "true");
+    window.location.reload();
+  }
+  else {
+    localStorage.removeItem("reload");
+  };
+
+  return (
     <div className="contact-container">
       <Helmet>
         <title>Sal J's Portfolio | Contact Info</title>
@@ -90,6 +100,7 @@ const ContactPage = () => (
         </form>
       </div>
     </div>
-);
+  );
+};
 
 export default ContactPage;
