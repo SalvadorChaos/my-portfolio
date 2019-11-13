@@ -23,19 +23,19 @@ const Portfolio = () => (
 
     <div className="portfolio-items">
       <div className="portfolio-item">
-        <a class="link" href="https://cryptic-earth-89958.herokuapp.com/">
+        <a class="link" href="https://salvadorchaos-expensify.herokuapp.com/">
           <img src={ExpensifyPic} className="item-image" alt="Expensify Project" />
         </a>
       </div>
 
       <div className="portfolio-item">
-        <a class="link" href="https://ancient-cove-55563.herokuapp.com/">
+        <a class="link" href="https://salvadorchaos-indecision.herokuapp.com/">
           <img src={IndecisionPic} className="item-image" alt="Indecision Project" />
         </a>
       </div>
 
       <div className="portfolio-item">
-        <a class="link" href="https://fathomless-depths-50536.herokuapp.com/">
+        <a class="link" href="https://salvadorchaos-secrets.herokuapp.com/">
           <img src={SecretsPic} className="item-image" alt="Secrets Project" />
         </a>
       </div>
