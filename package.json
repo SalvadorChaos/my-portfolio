@@ -5,7 +5,7 @@
   "dependencies": {
     "css-loader": "^3.2.0",
     "emailjs-com": "^2.4.0",
-    "file-loader": "^4.2.0",
+    "file-loader": "^5.0.2",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
@@ -14,14 +14,16 @@
     "react-helmet": "^5.2.1",
     "react-modal": "^3.10.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "3.3.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "sweetalert": "^2.1.2",
-    "url-loader": "^2.1.0"
+    "url-loader": "^3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
+    "dev:up": "docker-compose -f docker-compose.yml -f dev.yml up",
+    "dev:build": "docker-compose -f docker-compose.yml -f dev.yml build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

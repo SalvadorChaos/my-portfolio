@@ -18,7 +18,7 @@ const HomePage = () => (
 
       <div className="welcome-titles">
         <h1 className="welcome">Welcome!</h1>
-        <p>This is my site. Take a look around!</p>
+        <p>This is my portfolio. Take a look around!</p>
       </div>
     </div>
 
