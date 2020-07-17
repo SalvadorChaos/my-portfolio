@@ -6,6 +6,17 @@ import DrumKitPic from '../images/drumkitpic.png';
 import SimonSaysPic from '../images/simonsayspic.png';
 import DiceChallengePic from '../images/dicechallengepic.png';
 import {Helmet} from 'react-helmet'
+import ToDoE from '../images/todo-e.png';
+import FlashChat from '../images/flashchat.png';
+import CryptoTicker from '../images/crypto-ticker.png';
+import ClimaWeather from '../images/clima-weather.png';
+import BMICalculator from '../images/bmi-calculator.png';
+import DestiniGames from '../images/destini-games.png';
+import Quizzler from '../images/quizzler.png';
+import Xylophone from '../images/xylophone.png';
+import Magic8Ball from '../images/magic-8-ball.png';
+import DiceE from '../images/dice-e.png';
+import MyDigitalBusinessCard from '../images/my-digital-business-card.png';
 
 const Portfolio = () => (
   <div className="portfolio-container">
@@ -19,7 +30,7 @@ const Portfolio = () => (
     <div className="portfolio-titles">
       <h1>My Work</h1>
       <p>Things that I've done:</p>
-      <p>Websites:</p>
+      <h3>Websites:</h3>
     </div>
 
     <div className="portfolio-items">
@@ -61,52 +72,74 @@ const Portfolio = () => (
     </div>
 
     <div class="portfolio-titles">
-      <p>Apps:</p>
+      <h3>Apps:</h3>
     </div>
 
-    <div class="portfolio-items">
+    <div>
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.todoey">ToDo-E</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.todoey">
+          <img src={ToDoE} className="item-banner" alt="ToDo-E Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.flash_chat">FlashChat</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.flash_chat">
+          <img src={FlashChat} className="item-banner" alt="FlashChat Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.crypto_ticker">Crypto Ticker</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.crypto_ticker">
+          <img src={CryptoTicker} className="item-banner" alt="Crypto-Ticker Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.quizzler">Quizzler</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.clima">
+          <img src={ClimaWeather} className="item-banner" alt="Clima-Weather Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.clima">Clima Weather</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.bmi_calculator">
+          <img src={BMICalculator} className="item-banner" alt="BMI-Calculator Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.bmi_calculator">BMI Calculator</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.destini_games">
+          <img src={DestiniGames} className="item-banner" alt="Destini-Games Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.xylophone_app">Xylophone</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.quizzler">
+          <img src={Quizzler} className="item-banner" alt="Quizzler Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.destini_games">Destini Games</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.xylophone_app">
+          <img src={Xylophone} className="item-banner" alt="Xylophone Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.magic_8_ball">Magic 8-Ball</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.magic_8_ball">
+          <img src={Magic8Ball} className="item-banner" alt="Magic-8-Ball Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.dice_e">Dice-E</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.dice_e">
+          <img src={DiceE} className="item-banner" alt="Dice-E Project" />
+        </a>
       </div>
 
       <div class="portfolio-item">
-        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.business_card">My Digital Business Card</a>
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.business_card">
+          <img src={MyDigitalBusinessCard} className="item-banner" alt="My-Digital-Business-Card Project" />
+        </a>
       </div>
     </div>
   </div>

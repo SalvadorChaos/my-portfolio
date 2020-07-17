@@ -34,6 +34,17 @@
   }
 }
 
+.item-banner {
+  opacity: 0.5;
+  height: 200px;
+  width: auto;
+  transition: all .2s ease-in-out;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
 // Media Queries
 @media (max-width: 530px) {
   .portfolio-container {
