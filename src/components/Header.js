@@ -10,7 +10,7 @@ const Header = () => (
           <span className="hide-when-narrow"> Jr</span>
         </h1>
         <p>
-          Web Developer
+          Web &amp; App Developer
         </p>
       </div>
       

@@ -36,12 +36,99 @@
   padding-bottom: $xxs-size;
 }
 
+.other-skills {
+  display: inline;
+  padding-bottom: $xxs-size;
+}
+
+.oli {
+  margin: auto;
+  width: 12%;
+}
+
 li {
   text-align: left;
   padding-left: 30px;
 }
 
 // Media Queries
+@media (max-width: 1792px) {
+  .oli {
+    margin:auto;
+    width: 14%;
+  }
+}
+
+@media (max-width: 1560px) {
+  .oli {
+    margin:auto;
+    width: 16%;
+  }
+}
+
+@media (max-width: 1390px) {
+  .oli {
+    margin:auto;
+    width: 18%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .oli {
+    margin:auto;
+    width: 20%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .oli {
+    margin:auto;
+    width: 22%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .oli {
+    margin:auto;
+    width: 25%;
+  }
+}
+
+@media (max-width: 900px) {
+  .oli {
+    margin:auto;
+    width: 28%;
+  }
+}
+
+@media (max-width: 840px) {
+  .oli {
+    margin:auto;
+    width: 30%;
+  }
+}
+
+@media (max-width: 715px) {
+  .oli {
+    margin:auto;
+    width: 35%;
+  }
+}
+
+@media (max-width: 625px) {
+  .oli {
+    margin:auto;
+    width: 40%;
+  }
+}
+
+@media (max-width: 560px) {
+  .oli {
+    margin:auto;
+    width: 45%;
+  }
+}
+
 @media (max-width: 530px) {
   .intro {
     display: block;

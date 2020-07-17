@@ -21,7 +21,7 @@ const ContactPage = () => {
         />
       </Helmet>
       <div className="contact-div">
-        <p className="question">Need a website?</p>
+        <p className="question">Need an app or website?</p>
         <h1 className="contact-me">Contact Me</h1>
         <br />
         <p>

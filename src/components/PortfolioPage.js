@@ -19,6 +19,7 @@ const Portfolio = () => (
     <div className="portfolio-titles">
       <h1>My Work</h1>
       <p>Things that I've done:</p>
+      <p>Websites:</p>
     </div>
 
     <div className="portfolio-items">
@@ -56,6 +57,56 @@ const Portfolio = () => (
         <a class="link" href="https://salvadorchaos.github.io/Dice-Challenge/">
           <img src={DiceChallengePic} className="item-image" alt="Dice-Challenge Project" />
         </a>
+      </div>
+    </div>
+
+    <div class="portfolio-titles">
+      <p>Apps:</p>
+    </div>
+
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.todoey">ToDo-E</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.flash_chat">FlashChat</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.crypto_ticker">Crypto Ticker</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.quizzler">Quizzler</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.clima">Clima Weather</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.bmi_calculator">BMI Calculator</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.xylophone_app">Xylophone</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.destini_games">Destini Games</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.magic_8_ball">Magic 8-Ball</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.dice_e">Dice-E</a>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="https://play.google.com/store/apps/details?id=com.salvadorchaos.business_card">My Digital Business Card</a>
       </div>
     </div>
   </div>
