@@ -38,22 +38,22 @@ const ContactPage = () => {
         <div className="business">
           <div>
             <a class="link" href="mailto:salvadormartinez022693@gmail.com">
-              {/* <i class="fas fa-envelope" title="email"></i> */}
-              email
+              <i class="fas fa-envelope" title="email" alt="email"></i>
+              {/* email */}
             </a>
           </div>
 
           <div>
             <a href="http://www.linkedin.com/in/salvador-martinez-123568186">
-              {/* <i class="social-icon fab fa-linkedin" title="linkedin"></i> */}
-              linkedin
+              <i class="social-icon fab fa-linkedin" title="linkedin" alt="linkedin"></i>
+              {/* linkedin */}
             </a>
           </div>
 
           <div>
             <a href="http://www.github.com/SalvadorChaos">
-              {/* <i class="social-icon fab fa-github" title="github"></i> */}
-              github
+              <i class="social-icon fab fa-github" title="github" alt="github"></i>
+              {/* github */}
             </a>
           </div>
         </div>
@@ -61,22 +61,22 @@ const ContactPage = () => {
         <div className="personal">
           <div>
             <a href="http://www.twitter.com/SalvadorChaos">
-              {/* <i class="social-icon fab fa-twitter" title="twitter"></i> */}
-              twitter
+              <i class="social-icon fab fa-twitter" title="twitter" alt="twitter"></i>
+              {/* twitter */}
             </a>
           </div>
 
           <div>
             <a href="http://www.instagram.com/SalvadorChaos" className="margin">
-              {/* <i class="social-icon fab fa-instagram" title="instagram"></i> */}
-              instagram
+              <i class="social-icon fab fa-instagram" title="instagram" alt="instagram"></i>
+              {/* instagram */}
             </a>
           </div>
 
           <div>
             <a href="http://www.facebook.com/SalvadorChaos" className="margin">
-              {/* <i class="social-icon fab fa-facebook-f" title="facebook"></i> */}
-              facebook
+              <i class="social-icon fab fa-facebook-f" title="facebook" alt="facebook"></i>
+              {/* facebook */}
             </a>
           </div>
         </div>
