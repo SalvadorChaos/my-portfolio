@@ -25,9 +25,9 @@ const ContactPage = () => {
         <h1 className="contact-me">Contact Me</h1>
         <br />
         <p>
-          You can reach me at <a href="mailto:salvadormartinez022693@gmail.com">
+          You can reach me at <a href="mailto:salvadoris@protonmail.com">
           <span className="email">
-          salvadormartinez022693</span><span className="gmail">@gmail.com</span>
+          salvadoris</span><span className="gmail">@protonmail.com</span>
           </a>
         </p>
         <br />
@@ -37,7 +37,7 @@ const ContactPage = () => {
       <div className="networks-div">
         <div className="business">
           <div>
-            <a class="link" href="mailto:salvadormartinez022693@gmail.com">
+            <a class="link" href="mailto:salvadoris@protonmail.com">
               <i class="fas fa-envelope" title="email" alt="email"></i>
               {/* email */}
             </a>
